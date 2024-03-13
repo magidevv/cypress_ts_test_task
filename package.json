@@ -1,0 +1,23 @@
+{
+  "name": "cypress_ts_test_task",
+  "version": "1.0.0",
+  "description": "Test task with Cypress + TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "typescript"
+  ],
+  "author": "Anna Berezhna",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.6",
+    "cypress-real-events": "^1.12.0",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
