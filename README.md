@@ -69,7 +69,9 @@ Follow these steps to install the project from this GitHub repository and connec
 ## Big Picture
 **What good automation QA is?**
 
-This is a person whose responsibility is not only to ensure product quality and understand methodologies and concepts, but also to automate the testing process, saving time and resources on large volumes of data. A good automation QA will know what to test and how to automate certain cases, choosing the most optimized approach, applying his experience in using certain frameworks and testing tools.
+This is a person whose responsibility is not only to ensure product quality and understand methodologies and concepts, but also to automate the testing process, saving time and resources on large volumes of data.
+
+A good automation QA will know what to test and how to automate certain cases, choosing the most optimized approach, applying his experience in using certain frameworks and testing tools.
 
 **What you love and don’t love about automation QA?**
 
