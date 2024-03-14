@@ -4,7 +4,9 @@
   "description": "Test task with Cypress + TypeScript",
   "main": "index.js",
   "scripts": {
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "test": "npx cypress run --browser chromium",
+    "test:headed": "npx cypress run --browser chromium --headed"
   },
   "keywords": [
     "cypress",

@@ -1,7 +1,8 @@
 import { Page } from "./page";
 
 const pageTitle = "h3[class^='ant-typography']";
-const mockup = "canvas";
+const mockupSales = "canvas:eq(0)";
+const mockupPremium = "canvas:eq(1)";
 const statisticMockup = ".g2-tooltip";
 const brandSelect = "div[class*=Sales_brandSelect]";
 const yearSelect = ".ant-select-outlined:eq(1)";
@@ -30,9 +31,15 @@ export default class SalesPage extends Page {
     this.toHaveText(selectedYear, "2024");
   }
 
-  hoverStatisticMockup() {
+  hoverSalesStatisticMockup() {
     this.wait(1000);
-    this.hover(mockup, "center");
+    this.hover(mockupSales, "center");
+    this.hover(premiumTab, "center");
+  }
+
+  hoverPremiumStatisticMockup() {
+    this.wait(1000);
+    this.hover(mockupPremium, "center");
     this.hover(premiumTab, "center");
   }
 
@@ -77,5 +84,6 @@ export default class SalesPage extends Page {
 
   clickPremiumTab() {
     this.click(premiumTab);
+    this.wait(1000);
   }
 }
